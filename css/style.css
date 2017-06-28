@@ -1,0 +1,133 @@
+/**{
+  border: 1px solid black;
+}*/
+
+
+.container {
+  padding-top: 100px;
+  width : 70%;
+  margin: auto;
+}
+
+.rowcat {
+  padding : 10px !important;
+  height:
+}
+
+#summer, #winter {
+  height: 30vw;
+  max-height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+#winter {
+background-image: url("../img/neige.jpg");
+background-size: cover;
+border-radius: 10px;
+}
+
+.bandeau {
+  height: 10vw;
+  max-height: 120px;
+  min-height: 50px;
+  background-color: #005EB8;
+  filter: opacity(70%);
+  position: absolute;
+  width: 100%;
+  bottom : 0;
+}
+
+.imgcat{
+height: 100px;
+background-color: white;
+
+}
+.img{
+  height: 100px;
+  width: auto;
+  margin-left: 20px;
+  padding-bottom: 28px;
+  padding-left: 20px;
+}
+
+.boxsummer, .boxwinter{
+padding: 10px;
+}
+
+#summer {
+  background-image: url("../img/Canicule.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.box{
+/*padding: 10px;*/
+}
+
+#p1, #p5,
+#p2, #p6,
+#p3, #p7,
+#p4, #p8{
+  height: 120px;
+}
+
+#conseil {
+  height: 20px;
+}
+
+.txtcat1, .txtcat2, .txtcat3, .txtcat4 {
+  background-color: #00A2DD !important;
+  color: white;
+  padding-right: 20px !important;
+  padding: 17px 0 20px 0;
+}
+
+h3 {
+  text-align: center;
+}
+
+.text1.p {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  margin-top: 1vw;
+  filter: brightness(300%);
+  font-weight: bold;
+}
+
+#boxresult {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+
+}
+#btnresult {
+  padding: 20px 10px 20px 10px;
+}
+
+.mail {
+  background-color: #00A2DD;
+  width : 25%;
+  margin : auto;
+  padding : 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.presentation {
+  font-size : 18px;
+  color: white;
+  background-color: #005EB8;
+  padding: 20px;
+}
+.formulaire {
+  font-weight: bold;
+  color: white;
+}

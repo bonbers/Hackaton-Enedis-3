@@ -1,0 +1,170 @@
+body {
+    width: 100%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+#logo {
+    width: 6em;
+
+}
+#enedis, #link {
+    color: #90c84c;
+}
+.inset-text-effect {
+  font: normal 70px/1 "Aladin", Helvetica, sans-serif;
+  color: #005EB8;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.inset-text-effect span {
+    color: #90c84c;
+}
+header .container {
+    padding: 0;
+}
+h1 {
+    margin-top: 40px;
+}
+/*navbar*/
+nav.navbar {
+    background-color: whitesmoke;
+    text-transform: uppercase;
+    border: 0;
+    margin: auto;
+    position: fixed;
+    width: 70%;
+    z-index: 1;
+    height: auto !important;
+}
+
+.navbar-brand {
+    width: 25%;
+    padding: 7px 15px 0 15px;
+    position: absolute;
+
+}
+
+.mail {
+width : 100%;
+}
+
+.navbar-toggle {
+    float: right;
+}
+
+.nav.navbar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+.nav.navbar-nav li {
+    flex-grow: 1;
+    width: 100%;
+}
+
+nav a {
+    font-family: "Abel", sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+nav span {
+    color: black;
+}
+/*nav end*/
+
+header h1 {
+    font-family: "Oswald";
+    display: none;
+}
+
+.footer {
+    width: 100%;
+    padding: 1em;
+    background-color: whitesmoke;
+}
+.glyphicon-menu-hamburger{
+  font-size: 30px;
+  margin-top: -8px;
+  margin-bottom: -30px;
+}
+#nav{
+  height: 70px;
+  width: 100%;
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8 {
+  margin-top: 120px;
+  margin-bottom: 20px;
+  padding : 20px;
+  display: none;
+}
+
+@media (min-width: 768px) {
+    nav.navbar {
+        position: fixed;
+    }
+
+    .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8 {
+      margin-top: 20px;
+    }
+.mail {
+  background-color: #00A2DD;
+  width : 25%;
+  margin : auto;
+  padding : 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+    .navbar-header {
+        width: 50%;
+        position: absolute;
+        left: 5%;
+    }
+    #nav {
+      width: 70%;
+      margin-left: 15%;
+    }
+
+    .navbar-header a {
+        width: 20%;
+    }
+
+    .navbar-brand {
+        width: 100%;
+    }
+
+    .nav.navbar-nav {
+        display: flex;
+        flex-wrap: nowrap;
+        position: absolute;
+        right: 5%;
+    }
+
+    .nav.navbar-nav li {
+        flex-grow: 0;
+        width: auto;
+    }
+
+    .footer {
+        width: 70%;
+        margin-left: 15%;
+        height: 6em;
+        text-align: center;
+    }
+    .col-md-2 {
+        width: 20%;
+        font-size: 15px;
+    }
+
+    #winter, #summer, .rowcat {
+        cursor: pointer;
+    }
+    .intro {
+        background-color: #005EB8;
+        color: white;
+        padding: 20px;
+    }
+}
